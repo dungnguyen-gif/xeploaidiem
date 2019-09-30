@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var diem = parseInt(prompt('nhap so diem'));
+    if (diem >= 75){
+        window.alert('diem loai A')
+    }else {
+        if (60 <= diem && diem < 75){
+            window.alert('diem loai B')
+        }else {
+            if ( 45 <= diem && diem < 60){
+                window.alert('diem loai C')
+        }else {
+                if ( 35 <= diem && diem < 45){
+                    window.alert('diem loai D')
+                }else {
+                   window.alert('diem loai E')
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>
